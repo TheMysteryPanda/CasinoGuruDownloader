@@ -1,0 +1,96 @@
+import json
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from bs4 import BeautifulSoup
+import undetected_chromedriver as uc
+
+# 1. Set up Selenium
+# create options with proxy, user agent, and window settings
+options = uc.ChromeOptions()
+options.add_argument("--disable-gpu")  # Disable GPU acceleration (useful for headless mode)
+options.add_argument("--start-maximized")  # Start Chrome maximized
+options.add_argument("--no-sandbox")  # Disable sandboxing for headless mode
+options.add_argument("--disable-dev-shm-usage")  # Disable /dev/shm usage for headless mode
+options.add_argument("--ignore-certificate-errors")  # Ignore certificate errors
+options.add_argument("--disable-extensions")  # Disable extensions
+options.add_argument("--disable-infobars")  # Disable infobars
+options.add_argument("--disable-notifications")  # Disable notifications
+options.add_argument("--disable-popup-blocking")  # Disable popup blocking
+options.add_argument("--disable-translate")  # Disable translation prompts
+options.add_argument("--disable-web-security")  # Disable web security
+options.add_argument("--disable-logging")  # Disable logging
+options.add_argument("--log-level=3")  # Set log level to minimal
+options.add_argument("--disable-software-rasterizer")  # Disable software rasterizer
+options.add_argument("--disable-features=VizDisplayCompositor")  # Disable VizDisplayCompositor
+options.add_argument("--headless")
+
+prefs = {"profile.managed_default_content_settings.images": 2}
+options.add_experimental_option("prefs", prefs)
+
+driver = uc.Chrome(options=options)
+
+# 2. Load the JSON file
+with open('CasinoGuru-Casinos.json', 'r') as f:
+    casinos = json.load(f)
+
+# 3. Navigate to the Casino Review Page and 4. Click the Button
+for casino in casinos:
+    driver.get(casino["casino_review_link"])
+    try:
+        # Wait for the button to become clickable
+        wait = WebDriverWait(driver, 3)
+        btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".casino-detail-box-game-providers .btn-info")))
+        btn.click()
+
+        # Wait for the popover to appear
+        wait.until(EC.presence_of_element_located((By.ID, "popover-game-providers")))
+
+        # Extract Provider Data
+        providers_div = driver.find_element(By.ID, "popover-game-providers")
+        soup = BeautifulSoup(providers_div.get_attribute('outerHTML'), 'html.parser')
+        
+        providers = []
+        for li in soup.find_all('li', class_='casino-detail-logos-item'):
+            img_tag = li.find('img')
+            a_tag = li.find('a')
+            if img_tag and a_tag:
+                provider_name = a_tag.get('title')
+                provider_image_url = img_tag.get('data-src')  # Extract the URL from the 'src' attribute of <img>
+                providers.append({'provider': provider_name, 'provider_url': provider_image_url})
+
+        # Update the amount_of_provider value
+        casino["amount_of_provider"] = len(providers)
+        # Append the Provider Data to the Casino
+        casino["providers"] = providers
+        print(providers)
+    except Exception as e:
+        try:
+            # Find the element that contains provider data
+            providers_div = driver.find_element(By.XPATH, "//div/div[6]/div")
+            soup = BeautifulSoup(providers_div.get_attribute('outerHTML'), 'html.parser')
+
+            providers = []
+            for li in soup.find_all('li', class_='casino-detail-logos-item'):
+                img_tag = li.find('img')
+                a_tag = li.find('a')
+                if img_tag and a_tag:
+                    provider_name = a_tag.get('title')
+                    provider_image_url = img_tag.get('data-src')
+                    providers.append({'provider': provider_name, 'provider_url': provider_image_url})
+
+            # Update the amount_of_provider value
+            casino["amount_of_provider"] = len(providers)
+            # Append the Provider Data to the Casino
+            casino["providers"] = providers
+            print(providers)
+        except Exception as e:
+            print("ERROR FOR THIS CASINO, WE SKIP THAT")
+#
+
+driver.quit()
+
+# 5. Save the Updated JSON with Provider Data
+with open('CasinoGuru-Casinos-Provider.json', 'w') as f:
+    json.dump(casinos, f, indent=4)

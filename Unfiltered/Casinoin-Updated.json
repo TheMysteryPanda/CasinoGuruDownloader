@@ -1,0 +1,298 @@
+{
+    "background_color": "#005eb5",
+    "casino_name": "Casinoin",
+    "casino_image_src_wide": "https://static.casino.guru/pict/123421/in-500x250_dark.svg?timestamp=1653447125000&imageDataId=209552&width=300&height=150",
+    "casino_image_src_square": "https://static.casino.guru/pict/123421/in-500x500_dark.svg?timestamp=1653442563000&imageDataId=205569&width=300&height=300",
+    "casino_review_link": "https://casinoguru-de.com/casinoin-rezensionen",
+    "providers": [
+        {
+            "provider": "NetEnt",
+            "provider_url": "https://static.casino.guru/pict/123435/NetEnt_dark.svg?timestamp=1662360352000&imageDataId=368970&width=64"
+        },
+        {
+            "provider": "Nolimit City",
+            "provider_url": "https://static.casino.guru/pict/124056/NoLimit_dark.svg?timestamp=1662360367000&imageDataId=368972&width=64"
+        },
+        {
+            "provider": "Playtech",
+            "provider_url": "https://static.casino.guru/pict/124084/Playtech_dark.svg?timestamp=1662360402000&imageDataId=368978&width=64"
+        },
+        {
+            "provider": "Microgaming",
+            "provider_url": "https://static.casino.guru/pict/124047/Microgaming_dark.svg?timestamp=1662360341000&imageDataId=368968&width=64"
+        },
+        {
+            "provider": "Play'n GO",
+            "provider_url": "https://static.casino.guru/pict/124074/PlayNGo_dark.svg?timestamp=1662360391000&imageDataId=368976&width=64"
+        },
+        {
+            "provider": "Blueprint Gaming",
+            "provider_url": "https://static.casino.guru/pict/123942/Blueprint_dark.svg?timestamp=1663484019000&imageDataId=374659&width=64"
+        },
+        {
+            "provider": "Evolution Gaming",
+            "provider_url": "https://static.casino.guru/pict/123972/evolution_gaming_white.png?timestamp=1653402487000&imageDataId=119241&width=64"
+        },
+        {
+            "provider": "Pragmatic Play",
+            "provider_url": "https://static.casino.guru/pict/124086/PragmaticPlay_dark.svg?timestamp=1658212047000&imageDataId=346523&width=64"
+        },
+        {
+            "provider": "Yggdrasil Gaming",
+            "provider_url": "https://static.casino.guru/pict/124168/Yggdrasil_darak.svg?timestamp=1662360615000&imageDataId=369002&width=64"
+        },
+        {
+            "provider": "Quickspin",
+            "provider_url": "https://static.casino.guru/pict/124092/Quickspin_dark.svg?timestamp=1662360422000&imageDataId=368980&width=64"
+        },
+        {
+            "provider": "Igrosoft",
+            "provider_url": "https://static.casino.guru/pict/13305/Igrosoft_dark.svg?timestamp=1663483119000&imageDataId=374620&width=64"
+        },
+        {
+            "provider": "Thunderkick",
+            "provider_url": "https://static.casino.guru/pict/124148/Thunderkick_dark.svg?timestamp=1662360591000&imageDataId=368998&width=64"
+        },
+        {
+            "provider": "Red Tiger Gaming",
+            "provider_url": "https://static.casino.guru/pict/124102/RedTiger_dark.svg?timestamp=1662360435000&imageDataId=368982&width=64"
+        },
+        {
+            "provider": "Big Time Gaming",
+            "provider_url": "https://static.casino.guru/pict/123940/BigTimeGaming_dark.svg?timestamp=1662360095000&imageDataId=368940&width=64"
+        },
+        {
+            "provider": "Betsoft Gaming",
+            "provider_url": "https://static.casino.guru/pict/123927/Betsoft_dark.svg?timestamp=1662360054000&imageDataId=368937&width=64"
+        },
+        {
+            "provider": "Playson",
+            "provider_url": "https://static.casino.guru/pict/124080/Playson_new_dark.svg?timestamp=1682353033000&imageDataId=499473&width=64"
+        },
+        {
+            "provider": "Amatic",
+            "provider_url": "https://static.casino.guru/pict/123900/Amatic_dark.svg?timestamp=1663483906000&imageDataId=374653&width=64"
+        },
+        {
+            "provider": "Evoplay",
+            "provider_url": "https://static.casino.guru/pict/123974/Evoplay_dark.svg?timestamp=1662360175000&imageDataId=368950&width=64"
+        },
+        {
+            "provider": "Ezugi",
+            "provider_url": "https://static.casino.guru/pict/484/Ezugi.svg?timestamp=1653435907000&imageDataId=194436&width=64"
+        },
+        {
+            "provider": "ELK Studios",
+            "provider_url": "https://static.casino.guru/pict/123966/ELK_dark.svg?timestamp=1663484817000&imageDataId=374715&width=64"
+        },
+        {
+            "provider": "Push Gaming",
+            "provider_url": "https://static.casino.guru/pict/124088/PushGaming_dark.svg?timestamp=1663496413000&imageDataId=374824&width=64"
+        },
+        {
+            "provider": "BGaming",
+            "provider_url": "https://static.casino.guru/pict/123935/BGaming_dark.svg?timestamp=1663484549000&imageDataId=374690&width=64"
+        },
+        {
+            "provider": "GameArt",
+            "provider_url": "https://static.casino.guru/pict/123986/Gamerart_dark.svg?timestamp=1663483853000&imageDataId=374649&width=64"
+        },
+        {
+            "provider": "Endorphina",
+            "provider_url": "https://static.casino.guru/pict/123968/Endorphina_dark.svg?timestamp=1662360164000&imageDataId=368948&width=64"
+        },
+        {
+            "provider": "Wazdan",
+            "provider_url": "https://static.casino.guru/pict/124158/Wazdan_dark.svg?timestamp=1662360604000&imageDataId=369000&width=64"
+        },
+        {
+            "provider": "Habanero",
+            "provider_url": "https://static.casino.guru/pict/124002/Habanero_dark.svg?timestamp=1662360227000&imageDataId=368958&width=64"
+        },
+        {
+            "provider": "Lightning Box",
+            "provider_url": "https://static.casino.guru/pict/124039/Lightningthebox_white.svg?timestamp=1663496373000&imageDataId=374822&width=64"
+        },
+        {
+            "provider": "Red Rake Gaming",
+            "provider_url": "https://static.casino.guru/pict/124100/RedRake_dark.svg?timestamp=1663483947000&imageDataId=374655&width=64"
+        },
+        {
+            "provider": "Spinomenal",
+            "provider_url": "https://static.casino.guru/pict/124138/Spinomenal_dark.svg?timestamp=1663483215000&imageDataId=374624&width=64"
+        },
+        {
+            "provider": "Rabcat",
+            "provider_url": "https://static.casino.guru/pict/124094/Rabcat_dark.svg?timestamp=1663496980000&imageDataId=374871&width=64"
+        },
+        {
+            "provider": "Booming Games",
+            "provider_url": "https://static.casino.guru/pict/123944/Boominggames_dark.svg?timestamp=1663485186000&imageDataId=374741&width=64"
+        },
+        {
+            "provider": "Tom Horn",
+            "provider_url": "https://static.casino.guru/pict/124150/TomHorn_dark.svg?timestamp=1663484433000&imageDataId=374680&width=64"
+        },
+        {
+            "provider": "MrSlotty",
+            "provider_url": "https://static.casino.guru/pict/124049/MrSlotty_dark.svg?timestamp=1663485333000&imageDataId=374751&width=64"
+        },
+        {
+            "provider": "Relax Gaming",
+            "provider_url": "https://static.casino.guru/pict/124106/Relax_dark.svg?timestamp=1663484719000&imageDataId=374709&width=64"
+        },
+        {
+            "provider": "Belatra",
+            "provider_url": "https://static.casino.guru/pict/13310/Belatra_dark.svg?timestamp=1663498100000&imageDataId=374982&width=64"
+        },
+        {
+            "provider": "Betgames",
+            "provider_url": "https://static.casino.guru/pict/616/Betgames.png?timestamp=1653435061000&imageDataId=193700&width=64"
+        },
+        {
+            "provider": "Genii",
+            "provider_url": "https://static.casino.guru/pict/123998/Genii_dark.svg?timestamp=1663485369000&imageDataId=374756&width=64"
+        },
+        {
+            "provider": "Ainsworth",
+            "provider_url": "https://static.casino.guru/pict/123898/Ainsworth_dark.svg?timestamp=1663484648000&imageDataId=374701&width=64"
+        },
+        {
+            "provider": "Netgame",
+            "provider_url": "https://static.casino.guru/pict/62439/NetGame_dark.svg?timestamp=1663496738000&imageDataId=374851&width=64"
+        },
+        {
+            "provider": "Manna Play",
+            "provider_url": "https://static.casino.guru/pict/201530/MannaPlay_dark.svg?timestamp=1663496748000&imageDataId=374853&width=64"
+        },
+        {
+            "provider": "Mancala Gaming",
+            "provider_url": "https://static.casino.guru/pict/136002/Mancala_dark.svg?timestamp=1663484795000&imageDataId=374713&width=64"
+        },
+        {
+            "provider": "Platipus",
+            "provider_url": "https://static.casino.guru/pict/28805/Platipus_white.svg?timestamp=1663484704000&imageDataId=374708&width=64"
+        },
+        {
+            "provider": "PGsoft (Pocket Games Soft)",
+            "provider_url": "https://static.casino.guru/pict/124072/PGS_dark.svg?timestamp=1663484564000&imageDataId=374693&width=64"
+        },
+        {
+            "provider": "OneTouch",
+            "provider_url": "https://static.casino.guru/pict/124064/OneTouch_dark.svg?timestamp=1663496282000&imageDataId=374813&width=64"
+        },
+        {
+            "provider": "Retro Gaming",
+            "provider_url": "https://static.casino.guru/pict/195050/987pr.png?timestamp=1653452830000&imageDataId=229352&width=64"
+        },
+        {
+            "provider": "Spadegaming",
+            "provider_url": "https://static.casino.guru/pict/29339/Spadegaming.svg?timestamp=1653435843000&imageDataId=194367&width=64"
+        },
+        {
+            "provider": "Revolver Gaming",
+            "provider_url": "https://static.casino.guru/pict/29780/RevolverGaming_dark.svg?timestamp=1663497417000&imageDataId=374919&width=64"
+        },
+        {
+            "provider": "Super Spade Club",
+            "provider_url": "https://static.casino.guru/pict/35474/SuperSpadeClub.png?timestamp=1653434702000&imageDataId=193409&width=64"
+        },
+        {
+            "provider": "Spribe",
+            "provider_url": "https://static.casino.guru/pict/109653/Spribe.svg?timestamp=1653435905000&imageDataId=194427&width=64"
+        },
+        {
+            "provider": "Vivo",
+            "provider_url": "https://static.casino.guru/pict/15461/Vivo.png?timestamp=1653435360000&imageDataId=193947&width=64"
+        },
+        {
+            "provider": "TrueLab Games",
+            "provider_url": "https://static.casino.guru/pict/109645/TrueLab_dark.svg?timestamp=1663498184000&imageDataId=374991&width=64"
+        },
+        {
+            "provider": "Triple Cherry",
+            "provider_url": "https://static.casino.guru/pict/133931/3cherry_dark.svg?timestamp=1663496965000&imageDataId=374869&width=64"
+        },
+        {
+            "provider": "Yolted",
+            "provider_url": "https://static.casino.guru/pict/186439/Yolted_dark.svg?timestamp=1663497780000&imageDataId=374942&width=64"
+        },
+        {
+            "provider": "XPG (xprogaming)",
+            "provider_url": "https://static.casino.guru/pict/28203/XPGxprogaming.png?timestamp=1653434881000&imageDataId=193555&width=64"
+        },
+        {
+            "provider": "Gamomat",
+            "provider_url": "https://static.casino.guru/pict/123994/Gamomat_dark.svg?timestamp=1662360203000&imageDataId=368954&width=64"
+        },
+        {
+            "provider": "Hacksaw Gaming",
+            "provider_url": "https://static.casino.guru/pict/124004/Hacksaw_dark.svg?timestamp=1663484618000&imageDataId=374699&width=64"
+        },
+        {
+            "provider": "Apollo Games",
+            "provider_url": "https://static.casino.guru/pict/29340/Apollo_dark.svg?timestamp=1664268291000&imageDataId=380695&width=64"
+        },
+        {
+            "provider": "Betsolutions",
+            "provider_url": "https://static.casino.guru/pict/123929/betsolutions_white.png?timestamp=1653405905000&imageDataId=127478&width=64"
+        },
+        {
+            "provider": "eBET",
+            "provider_url": "https://static.casino.guru/pict/33849/eBET.png?timestamp=1653434884000&imageDataId=193576&width=64"
+        },
+        {
+            "provider": "CT Gaming",
+            "provider_url": "https://static.casino.guru/pict/109647/CasinoTech_dark.svg?timestamp=1664952267000&imageDataId=384785&width=64"
+        },
+        {
+            "provider": "Caleta",
+            "provider_url": "https://static.casino.guru/pict/95257/Caleta_dark.svg?timestamp=1662469227000&imageDataId=369605&width=64"
+        },
+        {
+            "provider": "Fantasma",
+            "provider_url": "https://static.casino.guru/pict/101324/Fantasma_dark.svg?timestamp=1663497008000&imageDataId=374874&width=64"
+        },
+        {
+            "provider": "Amusnet (EGT)",
+            "provider_url": "https://static.casino.guru/pict/250352/1083pr.png?timestamp=1658893140000&imageDataId=350232&width=64"
+        },
+        {
+            "provider": "Gamzix",
+            "provider_url": "https://static.casino.guru/pict/131895/Gamzix_dark.svg?timestamp=1663497222000&imageDataId=374898&width=64"
+        },
+        {
+            "provider": "Fugaso",
+            "provider_url": "https://static.casino.guru/pict/123982/Fugaso_dark.svg?timestamp=1663484365000&imageDataId=374678&width=64"
+        },
+        {
+            "provider": "Foxium",
+            "provider_url": "https://static.casino.guru/pict/14211/Foxium_dark.svg?timestamp=1663498030000&imageDataId=374976&width=64"
+        },
+        {
+            "provider": "Indi Slots",
+            "provider_url": "https://static.casino.guru/pict/102095/IndiSlots.png?timestamp=1653434584000&imageDataId=193321&width=64"
+        },
+        {
+            "provider": "Green Jade Games",
+            "provider_url": "https://static.casino.guru/pict/95302/GreenJade_dark.svg?timestamp=1663497260000&imageDataId=374903&width=64"
+        },
+        {
+            "provider": "Golden Hero",
+            "provider_url": "https://static.casino.guru/pict/62417/GoldenHero300.jpg?timestamp=1653397441000&imageDataId=27211&width=64"
+        },
+        {
+            "provider": "Kiron Interactive",
+            "provider_url": "https://static.casino.guru/pict/29547/KironInteractive.png?timestamp=1653435421000&imageDataId=194004&width=64"
+        },
+        {
+            "provider": "Kalamba Games",
+            "provider_url": "https://static.casino.guru/pict/124031/Kalamba_dark.svg?timestamp=1663484582000&imageDataId=374695&width=64"
+        },
+        {
+            "provider": "Just For The Win",
+            "provider_url": "https://static.casino.guru/pict/124025/JFTW_dark.svg?timestamp=1663485788000&imageDataId=374766&width=64"
+        }
+    ],
+    "amount_of_provider": 72
+}
